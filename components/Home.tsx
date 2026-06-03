@@ -5,7 +5,6 @@ import { useState } from "react";
 import { MusicPlayer } from "./music";
 import { anim, date, names, txt1, txt1_1, txt2, txt2_1, txt3, vazoxTox } from "@/data/data";
 import { motion } from "framer-motion";
-import Link from "next/link";
 
 export function Home() {
   const [isPlaying, setIsPlaying] = useState(false);
