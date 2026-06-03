@@ -67,7 +67,7 @@ export function Home() {
           className=" text-sovorakan relative  text-2xl mt-10"
         >
           {txt1}
-          <span className=" absolute w-[200%] -z-1 text-4xl -top-1 left-1/2 -translate-x-1/2 text-taki">
+          <span className=" absolute w-[200%] -z-1 text-4xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-taki">
             {txt1_1}
           </span>
         </motion.p>
@@ -89,35 +89,19 @@ export function Home() {
         <div className="FontBabylonica-Regular whitespace-nowrap animate-marquee-2 text-3xl mt-15 -rotate-2 -translate-x-full">
           {vazoxTox}
         </div>
-        <div className="FontBabylonica-Regular whitespace-nowrap animate-marquee text-3xl mb-10 rotate-2  -translate-x-full">
-          {vazoxTox}
-        </div>
         <div className="FontBabylonica-Regular whitespace-nowrap animate-marquee text-2xl mb-10 rotate-2  -translate-x-full">
           {vazoxTox}
         </div>
         <div className="FontBabylonica-Regular whitespace-nowrap animate-marquee-2 text-xl mt-15 -rotate-2 -translate-x-full">
           {vazoxTox}
         </div>
-          <div className="w-50 rotate-13  shadow-[0px_0px_7px_rgba(0,0,0,0.2)] bg-[#fdfdfd] p-5 pb-10 top-[30%] left-[35%] -translate-x-1/2 -translate-y-1/2 absolute">
-
             <Image
               src="/img2.jpg"
               alt="icon1"
               width={500}
               height={500}
-              className="w-full h-45 object-cover  "
+              className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[55vw] h-[55vw]  rotate-13 object-cover  "
             />
-          </div>
-          <div className="w-50 -rotate-13 shadow-[0px_0px_7px_rgba(0,0,0,0.2)] bg-[#fdfdfd] p-5 pb-10 top-[70%] left-[65%] -translate-x-1/2 -translate-y-1/2 absolute">
-
-            <Image
-              src="/img3.jpg"
-              alt="icon1"
-              width={500}
-              height={500}
-              className="w-full h-45 object-cover  "
-            />
-        </div>
       </div>
       <TimeBox />
 
