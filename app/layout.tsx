@@ -3,13 +3,13 @@ import "./globals.css";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Արո և Էլեն",
-  description: "Արո և Էլեն",
+  title: "Արայիկ և Էլեն",
+  description: "Արայիկ և Էլեն",
   openGraph: {
-    title: "Արոյի և Էլենի նշանադրության հրավիրատոմս",
+    title: "Արայիկի և Էլենի նշանադրության հրավիրատոմս",
     description: "Նշանադրության հրավիրատոմս",
     url: "https://aro-elen.vercel.app",
-    siteName: "Արո և Էլեն",
+    siteName: "Արայիկ և Էլեն",
     images: [
       {
         url: "/img1.jpg",
